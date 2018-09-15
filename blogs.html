@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blogs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/css-rtl/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+    <link rel="stylesheet" type="text/css" href="css/simplelightbox.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/css/bootstrapValidator.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/sweetalert2.min.css">
+    <link rel="stylesheet" type="text/css" href="css/sun.css">
+</head>
+<body>
+
+
+    <div class="container-fluid">
+        <a href="#page" class="scroll-top-button bounce"></a>
+        <!-- topbar section -->
+        <div class="header" id="page">
+            <div class="row topbar">
+                <div class="container p-0">
+                    <div class="col-sm-6 p-0">
+                        <ul class="contact-info">
+                            <li>1800-222-223-22 <i class="fa fa-phone fliph"></i></li>
+                            <li>contact@charityplace.org <i class="fa fa-envelope"></i></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 p-0">
+                        <div class="top-options">
+                            <div class="registrations">
+                                <a href="login.html" title="">دخول</a>/<a href="register.html" title="">تسجيل جديد</a>
+                            </div>
+                            <a class="cart-btn" href="#" title=""><i class="fa fa-cart-plus"></i> <span>2</span></a>
+                            <form class="header-search">
+                                <input type="text" placeholder="بحث">
+                                <button><i class="fa fa-search fliph"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- topbar section -->
+
+            <!-- menubar section -->
+            <div class="row menubar">
+                <div class="container p-0">
+                    <div class="col-md-4 p-0">
+                        <div class="logo">
+                            <a href="index.html" title=""><img src="image/sun-img/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 p-0">
+                        <div class="menu">
+                            <nav>
+                                <ul>
+                                    <li><a href="index.html" title="">الرئيسية</a>
+                                    </li>
+                                    <li><a href="#" title="">الصفحات</a>
+                                        <ul>
+                                            <li><a href="#" title="">الصفحات الإضافية</a>
+                                                <ul>
+                                                    <li><a href="login.html" title="">صفحة تسجيل الدخول</a></li>
+                                                    <li><a href="register.html" title="">صفحة التسجيل</a></li>
+                                                    <li><a href="faqs.html" title="">صفحة الأسئلة المتداولة</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="gallery.html" title="">معرض الصور</a>
+                                    </li>
+                                    <li><a href="blogs.html" title="">المدونة</a>
+                                    </li>
+                                    <li><a href="causes.html" title="">القضايا</a>
+                                    </li>
+                                    <li><a href="shop.html" title="">التسوق</a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <a class="btn call-popup" href="#" title="">التبرع</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- menubar section -->
+
+        <!-- Responsive Header -->
+        <div class="responsive-header">
+            <div class="row topbar">
+                <div class="container">
+                    <ul class="contact-info">
+                        <li>contact@charityplace.org <i class="fa fa-envelope"></i></li>
+                        <li>1800-222-223-22 <i class="fa fa-phone fliph"></i></li>
+                    </ul>
+
+                    <div class="top-options">
+                        <a class="cart-btn" href="#" title=""><i class="fa fa-cart-plus"></i> <span>2</span></a>
+                        <div class="registrations">
+                            <a href="login.html" title="">دخول</a>/<a href="register.html" title="">تسجيل جديد</a>
+                        </div>
+                        <form class="header-search">
+                            <input type="text" placeholder="بحث">
+                            <button><i class="fa fa-search fliph"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div><!-- Topbar -->
+
+            <div class="row menubar">
+                <a class="topbar-btn" href="#" title=""><i class="fa fa-angle-down"></i></a>
+                <div class="logo">
+                    <a href="index.html" title=""><img src="image/sun-img/logo.png" alt=""></a>
+                </div>
+
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <li class="menu-item-has-children"><a href="index.html" title="">الرئيسية</a>
+                            </li>
+                            <li class="menu-item-has-children"><a href="#" title="">الصفحات</a>
+                                <ul>
+                                    <li class="menu-item-has-children"><a href="#" title="">الصفحات الإضافية</a>
+                                        <ul>
+                                            <li><a href="login.html" title="">صفحة تسجيل الدخول</a></li>
+                                            <li><a href="register.html" title="">صفحة التسجيل</a></li>
+                                            <li><a href="faqs.html" title="">صفحة الأسئلة المتداولة</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children"><a href="gallery.html" title="">معرض الصور</a>
+                            </li>
+                            <li class="menu-item-has-children"><a href="blogs.html" title="">المدونة</a>
+                            </li>
+                            <li class="menu-item-has-children"><a href="causes.html" title="">القضايا</a>
+                            </li>
+                            <li class="menu-item-has-children"><a href="shop.html" title="">التسوق</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <a class="btn menu-btn" href="#" title=""><i class="fa fa-bars"></i></a>
+                    <a class="btn" href="#" title="">التبرع</a>
+                </div>
+            </div>
+
+        </div>
+        <!-- Responsive Header -->
+
+        <!-- page top -->
+        <div class="row pagetop">
+            <div class="pagetop-overlay"></div>
+            <div class="container">
+                <h1>أحدث مدونة</h1>
+                <ul class="breadcrumbs">
+                    <li>مدونة</li>
+                    <li><a href="index.html" title="">الرئيسية</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- page top -->
+
+        <!-- latest blog -->
+        <div class="row blogs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="sun-blog">
+                            <div class="row">
+                                <div class="masonary">
+                                    <div class="col-md-4">
+                                        <div class="sun-post grid">
+                                            <div class="image1">
+                                                <a href="#" title=""><img src="image/sun-img/sun-post-grid16.jpg" alt=""></a>
+                                            </div>
+                                            <h4><a href="#" title="">مساعدة الأطفال على النمو بشكل أقوى</a></h4>
+                                            <ul class="meta">
+                                                <li><a href="#" title="">2 <i class="fa fa-comment-o"></i></a></li>
+                                                <li><a href="#" title="">12 <i class="fa fa-heart-o"></i></a></li>
+                                                <li><a href="#" title="">17 Jun, 2017</a></li>
+                                            </ul>
+                                            <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج<br/> أليايت,سيت دو أيوسمود.</p>
+                                        </div><!-- Sun Post -->
+                                    </div>
+                                    <div class="col-md-4" >
+                                        <div class="sun-post grid">
+                                            <div class="image1">
+                                                <a href="#" title=""><img src="image/sun-img/sun-post-grid15.jpg" alt=""></a>
+                                            </div>
+                                            <h4><a href="#" title="">رحلتنا إلى سوريا</a></h4>
+                                            <ul class="meta">
+                                                <li><a href="#" title="">2 <i class="fa fa-comment-o"></i></a></li>
+                                                <li><a href="#" title="">12 <i class="fa fa-heart-o"></i></a></li>
+                                                <li><a href="#" title="">17 Jun, 2017</a></li>
+                                            </ul>
+                                            <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج<br/> أليايت,سيت دو أيوسمود.</p>
+                                        </div><!-- Sun Post -->
+                                    </div>
+                                    <div class="col-md-4" >
+                                        <div class="sun-post grid">
+                                            <div class="image1">
+                                                <a href="#" title=""><img src="image/sun-img/sun-post-grid14.jpg" alt=""></a>
+                                            </div>
+                                            <h4><a href="#" title="">مساعدة في الفلبين</a></h4>
+                                            <ul class="meta">
+                                                <li><a href="#" title="">2 <i class="fa fa-comment-o"></i></a></li>
+                                                <li><a href="#" title="">12 <i class="fa fa-heart-o"></i></a></li>
+                                                <li><a href="#" title="">17 Jun, 2017</a></li>
+                                            </ul>
+                                            <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج<br/> أليايت,سيت دو أيوسمود.</p>
+                                        </div><!-- Sun Post -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="sun-post grid">
+                                            <div class="image1">
+                                                <a href="#" title=""><img src="image/sun-img/sun-post-grid19.jpg" alt=""></a>
+                                            </div>
+                                            <h4><a href="#" title="">تبني طفل</a></h4>
+                                            <ul class="meta">
+                                                <li><a href="#" title="">2 <i class="fa fa-comment-o"></i></a></li>
+                                                <li><a href="#" title="">12 <i class="fa fa-heart-o"></i></a></li>
+                                                <li><a href="#" title="">17 Jun, 2017</a></li>
+                                            </ul>
+                                            <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج<br/> أليايت,سيت دو أيوسمود.</p>
+                                        </div><!-- Sun Post -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="sun-post grid">
+                                            <div class="image1">
+                                                <a href="#" title=""><img src="image/sun-img/sun-post-grid18.jpg" alt=""></a>
+                                            </div>
+                                            <h4><a href="#" title="">ترتيب الطعام</a></h4>
+                                            <ul class="meta">
+                                                <li><a href="#" title="">2 <i class="fa fa-comment-o"></i></a></li>
+                                                <li><a href="#" title="">12 <i class="fa fa-heart-o"></i></a></li>
+                                                <li><a href="#" title="">17 Jun, 2017</a></li>
+                                            </ul>
+                                            <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج<br/> أليايت,سيت دو أيوسمود.</p>
+                                        </div><!-- Sun Post -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="sun-post grid">
+                                            <div class="image1">
+                                                <a href="#" title=""><img src="image/sun-img/sun-post-grid17.jpg" alt=""></a>
+                                            </div>
+                                            <h4><a href="#" title="">جعل حياة أفضل للأطفال</a></h4>
+                                            <ul class="meta">
+                                                <li><a href="#" title="">2 <i class="fa fa-comment-o"></i></a></li>
+                                                <li><a href="#" title="">12 <i class="fa fa-heart-o"></i></a></li>
+                                                <li><a href="#" title="">17 Jun, 2017</a></li>
+                                            </ul>
+                                            <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج<br/> أليايت,سيت دو أيوسمود.</p>
+                                        </div><!-- Sun Post -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- Sun Blog -->
+
+
+                        <ul class="pagination">
+                            <li> <a href="#" title=""><i class="fa fa-angle-double-left"></i> </a> </li>
+                            <li class="current"><a href="#" title="">1</a></li>
+                            <li><a href="#" title="">2</a></li>
+                            <li><a href="#" title="">3</a></li>
+                            <li><a href="#" title="">4</a></li>
+                            <li><a href="#" title="">5</a></li>
+                            <li> <a href="#" title=""><i class="fa fa-angle-double-right"></i> </a> </li>
+                        </ul><!-- Pagination -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- latest blog -->
+
+        <!-- subscribe to newsletter -->
+        <div class="row subscribe">
+            <div class="container p-0">
+                <div class="col-sm-12">
+                    <div class="newsletter-subscribe">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h4>اشترك في النشرة الإخبارية</h4>
+                                <p>التحديثات القادمة للمنظمة. لا تفوت الأشياء!</p>
+                            </div>
+                            <div class="col-md-9">
+                                <form>
+                                    <input type="text" placeholder="أدخل عنوان بريدك الالكتروني">
+                                    <button class="btn">أرسل الآن</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- subscribe to newsletter -->
+
+        <!-- footer -->
+        <div class="row footer-widgets">
+            <div class="container p-0">
+                <div class="col-md-3">
+                    <div class="widget">
+                        <div class="about-widget">
+                            <div class="logo">
+                                <a href="#" title="">
+                                    <img src="image/sun-img/logo.png" alt="">
+                                </a>
+                            </div>
+                            <p>بريسنت كومودو كورسوس ماغنا،<br/>فيل سيليريسك نيسل كونسكتيتور.<br/>دونيك سيد أوديو دوي.
+                            </p>
+                            <a class="readmore" href="#" title="">اقرأ المزيد</a>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com" target="_blank" title=""><i class="fa fa-facebook"></i></a>
+                                <a href="https://twitter.com" title="" target="_blank"><i class="fa fa-twitter"></i></a>
+                                <a href="https://plus.google.com" title="" target="_blank"><i class="fa fa-google-plus"></i></a>
+                                <a href="https://vimeo.com" title="" target="_blank"><i class="fa fa-vimeo"></i></a>
+                                <a href="https://www.linkedin.com" title="" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="widget">
+                        <h4 class="widget-title">آخر الأعمال</h4>
+                        <div class="gallery">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <a class="zoomer" href="image/sun-img/gallery1.jpg" title="">
+                                        <img src="image/sun-img/gallery1.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="col-sm-4">
+                                    <a class="zoomer" href="image/sun-img/gallery2.jpg" title="">
+                                        <img src="image/sun-img/gallery2.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="col-sm-4">
+                                    <a class="zoomer" href="image/sun-img/gallery3.jpg" title="">
+                                        <img src="image/sun-img/gallery3.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="col-sm-4">
+                                    <a class="zoomer" href="image/sun-img/gallery4.jpg" title="">
+                                        <img src="image/sun-img/gallery4.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="col-sm-4">
+                                    <a class="zoomer" href="image/sun-img/gallery5.jpg" title="">
+                                        <img src="image/sun-img/gallery5.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="col-sm-4">
+                                    <a class="zoomer" href="image/sun-img/gallery6.jpg" title="">
+                                        <img src="image/sun-img/gallery6.jpg" alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- Widget -->
+                </div>
+                <div class="col-md-3">
+					<div class="widget">
+						<!--<div id="alert-dialogue"></div>-->
+						<form class="form-horizontal" method="POST" id="contact-form" onsubmit="return false">
+							<div class="form-group"><input type="text" id="inputName" name="username" placeholder="اسمك"></div>
+							<div class="form-group"><input type="text" id="inputEmail" name="email" placeholder="عنوان بريدك"></div>
+							<div class="form-group"><textarea name="message" id="inputMessage" placeholder="اكتب" rows="7"></textarea></div>
+							<div class="send">
+							<button type="submit" class="btn small">أرسل</button>
+							</div>
+						</form>
+					</div>
+				</div>
+                <div class="col-md-3">
+                    <div class="widget">
+                        <h4 class="widget-title">معلومات الاتصال</h4>
+                        <ul class="contact-info">
+                            <li class="font-f"><i class="fa fa-phone fliph"></i>  1800-222-222</li>
+                            <li class="font-f"><i class="fa fa-envelope"></i> contact@sunngocharity.org</li>
+                            <li><i class="fa fa-home"></i> طريق كنجزلاند. البيت الكبير لندن.</li>
+                        </ul>
+                    </div>
+                    <div class="widget">
+                        <h4 class="widget-title">المساعدة</h4>
+                        <div class="help-links">
+                            <a href="#" title="">الأسئلة المتداولة،</a>
+                            <a href="#" title="">سياسة الخصوصية،</a>
+                            <a href="#" title="">شروط الإستخدام،</a>
+                            <a href="#" title="">الدعم،</a>
+                            <a href="#" title="">اللوائح</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+
+        <!-- bottom strip -->
+        <div class="row bottom-strip">
+            <div class="container p-0">
+                <p>© 2017 المظاهر الإبداعية_ جميع الحقوق محفوظة.</p>
+                <ul class="footer-links">
+                    <li><a href="#" title="">الأسئلة المتداولة</a></li>
+                    <li><a href="#" title="">ما نقوم به</a></li>
+                    <li><a href="#" title="">قصتنا</a></li>
+                    <li><a href="#" title="">كن متطوعاً</a></li>
+                </ul>
+
+            </div>
+        </div>
+        <!-- bottom strip -->
+
+    </div>
+
+    <!-- Sun Popup -->
+    <div class="sun-popup">
+        <div class="sun-popup-box">
+            <div class="popup-title">
+                <h4>التبرع عن طريق باي بال</h4>
+                <a href="#" title=""><i class="fa fa-remove"></i></a>
+            </div>
+            <div class="popup-content">
+                <div class="donate-price-select">
+                    <div class="default-prices">
+                        <a href="#" title="">$10</a>
+                        <a href="#" title="">$25</a>
+                        <a href="#" title="">$50</a>
+                        <a href="#" title="">$100</a>
+                    </div>
+                    <input type="text" placeholder="مبلغ آخر $" />
+                </div>
+
+                <div class="checkfield">
+                    <input type="checkbox" />
+                    <label>أود أن أقدم هذه المساهمة الشهرية</label>
+                </div>
+
+                <div class="donate-for">
+                    <h4>تبرع من أجل:</h4>
+                    <div class="checkfield"> <input type="checkbox" /> <label>تعليم الأطفال</label> </div>
+                    <div class="checkfield"> <input type="checkbox" /> <label>مساعدة اللاجئين</label> </div>
+                    <div class="checkfield"> <input type="checkbox" /> <label>الرعاية الطبية</label> </div>
+                    <div class="checkfield"> <input type="checkbox" /> <label>الطعام للأطفال</label> </div>
+                    <div class="checkfield"> <input type="checkbox" /> <label>الحرب في سوريا</label> </div>
+                    <div class="checkfield"> <input type="checkbox" /> <label>أي قضية</label> </div>
+                </div>
+
+                <a class="btn" href="#" title="">تقديم التبرع</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sun Popup -->
+
+
+
+
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrapValidator.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/js-rtl/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="js/simplelightbox.js"></script>
+    <script type="text/javascript" src="js/isotope.js"></script>
+    <script type="text/javascript" src="js/sweetalert2.all.min.js"></script>
+    <script type="text/javascript" src="js/general.js"></script>
+
+</body>
+</html>
